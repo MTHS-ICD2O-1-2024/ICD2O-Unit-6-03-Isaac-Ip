@@ -1,11 +1,23 @@
 <mxfile host="65bd71144e">
     <diagram id="HIP3nbAZw_EuaXWnEj3U" name="Page-1">
-        <mxGraphModel dx="399" dy="236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="766" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="7" value="http://ics2o.mths.ca" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="7" value="http://ics2o.mths.ca" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="40" width="760" height="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="API &amp;amp; JSON" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;" vertex="1" parent="7">
+                    <mxGeometry x="300" y="40" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Get Temperature" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="320" y="90" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="ICON HERE" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="7">
+                    <mxGeometry x="290" y="270" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="TEMPERATURE HERE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="350" y="260" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
