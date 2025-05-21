@@ -17,10 +17,11 @@ async function getTemperature() {
     const resultJSON = await fetch("https://api.openweathermap.org/data/2.5/weather?lat=45.4211435&lon=-75.6900574&appid=fe1d80e1e103cff8c6afd190cad23fa5/")
     const jsonData = await resultJSON.json()
     console.log(jsonData)
-    const Temperature = jsonData.data[0]
+    const Temperature = jsonData.main.temp
+    const TemperatureC = (Temperature - 273.15)
 
     // output
-    document.getElementById("temperature").innerHTML = "<p>" + Temperature + "</p>"
+    document.getElementById("temperature").innerHTML = "<p>" + TemperatureC + "</p>"
   } catch (error) {
     console.error(error)
   }
