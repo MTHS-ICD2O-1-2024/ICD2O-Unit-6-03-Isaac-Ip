@@ -19,10 +19,16 @@ async function getTemperature() {
     console.log(jsonData)
     const Temperature = jsonData.main.temp
     const TemperatureC = (Temperature - 273.15)
+    //openweathermap.org/weather-conditions
+    const iconCode = jsonData.weather[0].icon
+    const iconUrl = `https://openweathermap.org/weather-conditions`
+    document.getElementById("weather-icon").innerHTML = `<img src="${iconUrl}" alt="Weather icon">`
 
     // output
     document.getElementById("temperature").innerHTML = "<p>" + TemperatureC + "</p>"
+    document.getElementById("weather-icon").innerHTML = `<img src="${iconUrl}" alt="Weather icon">`
   } catch (error) {
     console.error(error)
   }
 }
+
