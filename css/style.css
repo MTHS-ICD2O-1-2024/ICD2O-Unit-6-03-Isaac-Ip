@@ -1,4 +1,56 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Isaac Ip
+* Created on: Apr 2025
 * This file contains the CSS for index.html
 */
+
+.mdl-layout__header-row {
+  justify-content: center;
+  padding: 0;
+}
+
+.mdl-layout__content {
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 15pt;
+}
+
+.mdl-textfield__error {
+  color: lightgreen;
+}
+
+.page-content {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  height: 170px;
+  width: 170px;
+}
+
+h4 {
+  font-size: larger;
+  font-family: monospace;
+  color: white;
+}
+
+.button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  margin: auto;
+  background-size: contain;
+  border-radius: 100%;
+  width: 170px;
+  height: 170px;
+}
